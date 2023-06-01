@@ -1,0 +1,64 @@
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 55%;
+    }
+}
+
+@keyframes typewriter100 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.quotes-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1875rem;
+    width: 100%;
+    max-width: 25rem;
+    height: 30rem;
+}
+
+.kanyeshead img {
+    min-width: 6.25rem;
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+aside h1 {
+    background-color: #213547;
+    color: #ffffff;
+    text-align: left;
+    padding: 0.8125rem;
+}
+
+aside h1:last-child {
+    background-color: rgb(168, 0, 0);
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter 3s steps(40) infinite;
+}
+
+main {
+    border: 0.5px solid #21354772;
+    padding: 2rem;
+}
